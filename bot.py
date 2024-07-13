@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from flask import Flask, request
 
 app = Flask(__name__)
-bot = Client("my_bot", api_id="YOUR_API_ID", api_hash="YOUR_API_HASH", bot_token="YOUR_BOT_TOKEN")
+bot = Client("my_bot", api_id="1623073", api_hash="a6f2f0a7b2022f8ca7717d9101c5ff5c", bot_token="7078609429:AAG5lAS82y_hNSiSVPvpJx6xRRHmYW7kbhc")
 
 # Handle the /start command
 @bot.on_message(filters.command("start"))
